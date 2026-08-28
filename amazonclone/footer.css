@@ -139,3 +139,144 @@ footer {
     border-color: white;
     color: white;
 }
+
+
+/* ================================= */
+/* AMAZON SERVICES FOOTER */
+/* ================================= */
+
+.amazon-services {
+    width: 100%;
+    background-color: #131a22;
+
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+
+    padding: 45px 9% 60px;
+
+    gap: 35px;
+}
+
+
+/* SERVICE COLUMNS */
+
+.service-column {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+
+/* SERVICE LINKS */
+
+.service-column a {
+    text-decoration: none;
+    color: #aaa;
+
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+
+.service-column a:hover {
+    text-decoration: underline;
+}
+
+
+/* SERVICE TITLE */
+
+.service-column b {
+    display: block;
+
+    color: #ddd;
+
+    font-size: 16px;
+
+    margin-bottom: 2px;
+}
+
+
+/* DESCRIPTION */
+
+.service-column span {
+    display: block;
+
+    color: #aaa;
+
+    font-size: 16px;
+}
+
+
+/* ================================= */
+/* LEGAL FOOTER */
+/* ================================= */
+
+.legal-footer {
+    width: 100%;
+
+    background-color: #131a22;
+
+    text-align: center;
+
+    padding: 0 20px 35px;
+
+    color: #ddd;
+}
+
+
+/* LINKS */
+
+.legal-links {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 22px;
+
+    margin-bottom: 10px;
+}
+
+
+.legal-links a {
+    color: #ddd;
+
+    text-decoration: none;
+
+    font-size: 16px;
+}
+
+
+.legal-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* PRIVACY ICON */
+
+.privacy-icon {
+    background-color: #1683ff;
+
+    color: white;
+
+    border-radius: 8px;
+
+    padding: 2px 6px;
+
+    font-size: 13px;
+
+    font-weight: bold;
+}
+
+
+/* COPYRIGHT */
+
+.legal-footer p {
+    margin: 0;
+
+    font-size: 16px;
+
+    color: #ddd;
+}
